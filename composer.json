@@ -1,0 +1,37 @@
+{
+    "name": "phpalgorithms/datatypes",
+    "description": "Implementation of many basic data types.",
+    "type": "library",
+    "homepage": "https://github.com/PHPAlgorithms/DataTypes",
+    "keywords": [
+        "algorithm",
+        "algorithms",
+        "data",
+        "data types",
+        "math",
+        "php",
+        "structure",
+        "structures",
+        "types"
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ventaquil",
+            "email": "ventaquil@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PHPAlgorithms\\DataTypes\\": "src/",
+            "PHPAlgorithms\\DataTypes\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    }
+}
